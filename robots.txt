@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magi-ya-massazha-ptk.ru/sitemap.xml
