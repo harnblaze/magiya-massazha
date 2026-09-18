@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Массаж и SPA в Питкяранте — «Магия массажа», Татьяна</title>
+  <meta name="description" content="Массаж тела и лица, SPA-программы и обёртывания в уютном кабинете в Питкяранте. Психофизиологический массаж, горячие камни, подарочные сертификаты. Запись ВКонтакте и по телефону.">
+  <meta name="theme-color" content="#2F4A3F">
+  <meta property="og:title" content="«Магия массажа» — массаж и SPA в Питкяранте">
+  <meta property="og:description" content="Время, когда о вас заботятся. Уютный кабинет массажа, запись ВКонтакте и по телефону.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- Шапка -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Магия массажа — на главную">
+        <img class="brand__mark" src="assets/logo.svg" alt="" width="52" height="44">
+        <span class="brand__name">Магия массажа</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню" data-nav>
+        <ul class="nav__list">
+          <li><a href="#prices">Услуги и цены</a></li>
+          <li><a href="#spa">SPA-программы</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#gift">Сертификаты</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <div class="nav__mobile-extra">
+          <a class="btn btn--primary btn--block" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Записаться ВКонтакте</a>
+          <a class="btn btn--ghost btn--block" href="https://vk.ru/app5688600_-212913843" target="_blank" rel="noopener">Онлайн-запись в DIKIDI</a>
+          <a class="btn btn--ghost btn--block" href="tel:+79214539263">+7 921 453-92-63</a>
+          <p class="nav__address">Питкяранта, ул. Ленина, 40, 3 этаж, кабинет 6</p>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79214539263">+7 921 453-92-63</a>
+        <a class="btn btn--primary btn--sm header__cta" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Записаться</a>
+        <button class="burger" type="button" aria-label="Открыть меню" aria-controls="nav" aria-expanded="false" data-burger>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. Первый экран -->
+    <section class="hero" id="top">
+      <img class="hero__branch hero__branch--left" src="assets/eucalyptus.svg" alt="" aria-hidden="true">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Массаж и SPA · Питкяранта</p>
+          <h1 class="hero__title">Время, когда о&nbsp;вас заботятся</h1>
+          <p class="hero__lead">Меня зовут Татьяна, я делаю массаж с&nbsp;2022 года. В моём кабинете нет конвейера и чужих людей в&nbsp;коридоре — только вы, тёплый свет и&nbsp;час, который принадлежит вам.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-vk"></use></svg>
+              Записаться ВКонтакте
+            </a>
+            <a class="btn btn--ghost" href="tel:+79214539263">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+              Позвонить
+            </a>
+          </div>
+          <p class="hero__online">или <a href="https://vk.ru/app5688600_-212913843" target="_blank" rel="noopener">выберите время онлайн в DIKIDI</a></p>
+          <p class="hero__address">
+            <svg class="icon icon--sm" aria-hidden="true"><use href="#i-pin"></use></svg>
+            Питкяранта, ул. Ленина, 40, 3 этаж, кабинет 6
+          </p>
+        </div>
+
+        <div class="hero__visual reveal">
+          <img class="hero__branch hero__branch--visual" src="assets/eucalyptus-2.svg" alt="" aria-hidden="true">
+          <figure class="hero__photo">
+            <img class="" src="assets/photos/hero-800.jpg" srcset="assets/photos/hero-800.jpg 800w, assets/photos/hero-1400.jpg 1400w" sizes="(min-width: 1024px) 45vw, 100vw" alt="Татьяна делает массаж спины гостье в кабинете" width="800" height="1000" decoding="async">
+          </figure>
+          <img class="hero__sticker" src="assets/logo.svg" alt="" aria-hidden="true">
+          <a class="hero__promo" href="#promo">
+            <span class="hero__promo-badge">−20%</span>
+            <span class="hero__promo-text">на все обёртывания<br><small>смотреть акцию</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Для кого -->
+    <section class="section" id="for" aria-labelledby="for-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Для кого</p>
+          <h2 class="section__title" id="for-title">Вам сюда, если…</h2>
+        </header>
+        <ul class="pains">
+          <li class="pain reveal"><svg class="spark" aria-hidden="true"><use href="#i-spark"></use></svg><p>К вечеру «каменеют» шея и плечи — особенно после дня за&nbsp;компьютером</p></li>
+          <li class="pain reveal"><svg class="spark" aria-hidden="true"><use href="#i-spark"></use></svg><p>Устали так, что даже выходные не&nbsp;помогают выдохнуть</p></li>
+          <li class="pain reveal"><svg class="spark" aria-hidden="true"><use href="#i-spark"></use></svg><p>Давно хотели сделать что-то для себя, но всё время находились дела поважнее</p></li>
+          <li class="pain reveal"><svg class="spark" aria-hidden="true"><use href="#i-spark"></use></svg><p>Хочется ухода за телом и лицом в&nbsp;спокойной обстановке, а&nbsp;не в&nbsp;шумном салоне</p></li>
+        </ul>
+        <p class="quote-line reveal">Позаботиться о&nbsp;себе — это не&nbsp;каприз. Это способ снова чувствовать себя собой.</p>
+      </div>
+    </section>
+
+    <!-- 3. Обо мне -->
+    <section class="section section--tint" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about__visual reveal">
+          <figure class="about__photo">
+            <img class="" src="assets/photos/tatyana-diploma-800.jpg" srcset="assets/photos/tatyana-diploma-800.jpg 800w, assets/photos/tatyana-diploma-1400.jpg 1400w" sizes="(min-width: 1024px) 50vw, 100vw" alt="Татьяна с сертификатами об обучении массажу" width="800" height="1000" loading="lazy" decoding="async">
+          </figure>
+        <figure class="about__card">
+          <img class="about__card-mark" src="assets/logo-light.svg" alt="" aria-hidden="true">
+          <blockquote class="about__quote">
+            «Я не врач и не обещаю чудес. Зато обещаю внимательные руки, тёплое масло и&nbsp;время, когда можно ни о&nbsp;чём не&nbsp;думать».
+          </blockquote>
+          <figcaption class="about__sign">Татьяна</figcaption>
+          <img class="about__card-branch" src="assets/eucalyptus.svg" alt="" aria-hidden="true">
+        </figure>
+        </div>
+
+        <div class="about__text reveal">
+          <p class="eyebrow">Обо мне</p>
+          <h2 class="section__title" id="about-title">Здравствуйте, я&nbsp;Татьяна</h2>
+          <p>Массажем я занимаюсь с&nbsp;2022 года. Училась в&nbsp;Северо-Западном центре массажа, у&nbsp;меня есть сертификаты по&nbsp;каждому направлению, с&nbsp;которым я&nbsp;работаю.</p>
+          <p>Я работаю одна — поэтому каждую клиентку знаю лично. Помню, где у&nbsp;вас обычно зажато, какое давление вам комфортно и&nbsp;что в&nbsp;прошлый раз помогло расслабиться. Перед первым сеансом мы немного поговорим, и&nbsp;я&nbsp;подберу то, что нужно именно вам, а&nbsp;не&nbsp;«что есть в&nbsp;прайсе».</p>
+          <ul class="facts">
+            <li><strong>с 2022</strong><span>года делаю массаж</span></li>
+            <li><strong>СЗЦМ</strong><span>Северо-Западный центр массажа, сертификаты</span></li>
+            <li><strong>1 мастер</strong><span>каждый раз вас принимаю я</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Визитная процедура -->
+    <section class="section" id="signature" aria-labelledby="sig-title">
+      <div class="container">
+        <article class="signature reveal">
+          <figure class="signature__photo">
+            <img class="" src="assets/photos/signature-800.jpg" srcset="assets/photos/signature-800.jpg 800w, assets/photos/signature-1400.jpg 1400w" sizes="(min-width: 1024px) 30vw, 100vw" alt="Спокойный массаж спины в полумраке кабинета" width="800" height="1000" loading="lazy" decoding="async">
+          </figure>
+          <svg class="spark spark--corner" aria-hidden="true"><use href="#i-spark"></use></svg>
+          <div class="signature__text">
+            <p class="eyebrow eyebrow--honey">С неё я советую начать знакомство</p>
+            <h2 class="signature__title" id="sig-title">Психофизиологический массаж</h2>
+            <p>Моя любимая процедура. Спокойный, глубокий массаж всего тела в&nbsp;медленном ритме. Он помогает переключиться с&nbsp;забот, отпустить накопленное напряжение и&nbsp;по-настоящему отдохнуть.</p>
+            <p class="signature__note">Многие говорят, что после него впервые за&nbsp;долгое время выспались.</p>
+          </div>
+          <div class="signature__side">
+            <p class="signature__price">2300&nbsp;₽</p>
+            <a class="btn btn--primary" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Записаться</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Процедуры в движении -->
+    <section class="section section--dark section--reel" id="reel" aria-labelledby="reel-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--light">Как это выглядит</p>
+          <h2 class="section__title" id="reel-title">Немного атмосферы кабинета</h2>
+        </header>
+        <ul class="reel" data-reel>
+          <li class="reel__item reveal">
+            <video class="reel__video" src="assets/video/honey.mp4" poster="assets/video/honey.jpg" muted loop playsinline preload="none" aria-label="Медовый массаж: видео без звука"></video>
+            <div class="reel__caption"><h3>Медовый массаж</h3><p>шейно-воротниковая зона · 700 ₽</p></div>
+          </li>
+          <li class="reel__item reveal">
+            <video class="reel__video" src="assets/video/cups.mp4" poster="assets/video/cups.jpg" muted loop playsinline preload="none" aria-label="Баночный массаж: видео без звука"></video>
+            <div class="reel__caption"><h3>Баночный массаж</h3><p>шейно-воротниковая зона · 700 ₽</p></div>
+          </li>
+          <li class="reel__item reveal">
+            <video class="reel__video" src="assets/video/mask.mp4" poster="assets/video/mask.jpg" muted loop playsinline preload="none" aria-label="Альгинатная маска: видео без звука"></video>
+            <div class="reel__caption"><h3>Альгинатная маска</h3><p>уход за лицом · 500 ₽</p></div>
+          </li>
+          <li class="reel__item reveal">
+            <video class="reel__video" src="assets/video/chocolate.mp4" poster="assets/video/chocolate.jpg" muted loop playsinline preload="none" aria-label="Шоколадное обёртывание: видео без звука"></video>
+            <div class="reel__caption"><h3>Шоколадное обёртывание</h3><p>по акции 960 ₽</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Услуги и цены -->
+    <section class="section" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Прейскурант</p>
+          <h2 class="section__title" id="prices-title">Услуги и цены</h2>
+        </header>
+
+        <div class="tabs reveal" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Разделы прейскуранта">
+            <button class="tabs__tab" role="tab" id="tab-body" aria-controls="panel-body" aria-selected="true">Тело</button>
+            <button class="tabs__tab" role="tab" id="tab-face" aria-controls="panel-face" aria-selected="false" tabindex="-1">Лицо</button>
+            <button class="tabs__tab" role="tab" id="tab-neck" aria-controls="panel-neck" aria-selected="false" tabindex="-1">Шея и&nbsp;плечи</button>
+            <button class="tabs__tab" role="tab" id="tab-wrap" aria-controls="panel-wrap" aria-selected="false" tabindex="-1">Обёртывания <span class="chip">−20%</span></button>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-body" aria-labelledby="tab-body" tabindex="0">
+            <ul class="price-list">
+              <li class="price-row"><div><h3>Психофизиологический массаж</h3><p>Глубокий спокойный массаж всего тела — моя визитная процедура</p></div><span class="price">2300 ₽</span></li>
+              <li class="price-row"><div><h3>Классический массаж тела</h3></div><span class="price">2300 ₽</span></li>
+              <li class="price-row"><div><h3>Массаж горячими камнями</h3><p>Глубокое тепло, которое расслабляет лучше любого пледа</p></div><span class="price">2300 ₽</span></li>
+              <li class="price-row"><div><h3>Антицеллюлитный массаж</h3></div><span class="price">2000 ₽</span></li>
+              <li class="price-row"><div><h3>Вакуумный массаж</h3></div><span class="price">1600 ₽</span></li>
+              <li class="price-row"><div><h3>Массаж спины</h3></div><span class="price">1000 ₽</span></li>
+            </ul>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-face" aria-labelledby="tab-face" tabindex="0" hidden>
+            <ul class="price-list">
+              <li class="price-row"><div><h3>Скульптурный массаж</h3><p>Работа с&nbsp;мышцами лица и&nbsp;шеи — лицо выглядит свежим и&nbsp;отдохнувшим</p></div><span class="price">1000 ₽</span></li>
+              <li class="price-row"><div><h3>Буккальный массаж</h3><p>Проработка мышц лица, в&nbsp;том числе изнутри, со&nbsp;стороны щёк</p></div><span class="price">1000 ₽</span></li>
+              <li class="price-row"><div><h3>Альгинатная маска</h3><p>Приятное завершение ухода — кожа мягкая и&nbsp;увлажнённая</p></div><span class="price">500 ₽</span></li>
+            </ul>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-neck" aria-labelledby="tab-neck" tabindex="0" hidden>
+            <p class="tabs__intro">Шейно-воротниковая зона — для тех, кто много сидит.</p>
+            <ul class="price-list">
+              <li class="price-row"><div><h3>Массаж блейдами</h3></div><span class="price">800 ₽</span></li>
+              <li class="price-row"><div><h3>Баночный массаж</h3></div><span class="price">700 ₽</span></li>
+              <li class="price-row"><div><h3>Медовый массаж</h3></div><span class="price">700 ₽</span></li>
+            </ul>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-wrap" aria-labelledby="tab-wrap" tabindex="0" hidden>
+            <p class="tabs__intro">Сейчас все обёртывания со&nbsp;скидкой 20% — <a href="#promo">подробнее об&nbsp;акции</a>.</p>
+            <ul class="price-list">
+              <li class="price-row"><div><h3>Магниевое обёртывание</h3></div><span class="price"><s>1600 ₽</s> 1280 ₽</span></li>
+              <li class="price-row"><div><h3>Водорослевое обёртывание</h3></div><span class="price"><s>1500 ₽</s> 1200 ₽</span></li>
+              <li class="price-row"><div><h3>Шоколадное обёртывание</h3></div><span class="price"><s>1200 ₽</s> 960 ₽</span></li>
+              <li class="price-row"><div><h3>Бандажное обёртывание</h3></div><span class="price"><s>1400 ₽</s> 1120 ₽</span></li>
+              <li class="price-row"><div><h3>Липобустер</h3></div><span class="price"><s>2000 ₽</s> 1600 ₽</span></li>
+              <li class="price-row"><div><h3>Тейпирование</h3></div><span class="price">500 ₽</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="hint reveal">Не знаете, что выбрать? <a href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Напишите мне</a> — подскажу, что подойдёт именно вам.</p>
+      </div>
+    </section>
+
+    <!-- 6. SPA-программы -->
+    <section class="section section--tint" id="spa" aria-labelledby="spa-title">
+      <img class="section__branch section__branch--right" src="assets/eucalyptus-2.svg" alt="" aria-hidden="true">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">SPA-программы</p>
+          <h2 class="section__title" id="spa-title">Пара часов только для вас</h2>
+          <p class="section__lead">Несколько процедур подряд, когда можно полностью выключиться из&nbsp;дел.</p>
+        </header>
+        <div class="spa-grid">
+          <article class="spa-card reveal">
+            <figure class="spa-card__photo"><img class="" src="assets/photos/spa-face-800.jpg" srcset="assets/photos/spa-face-800.jpg 800w, assets/photos/spa-face-1400.jpg 1400w" sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw" alt="Альгинатная маска на лице гостьи" width="800" height="1000" loading="lazy" decoding="async"></figure>
+            <h3>«Time of the MagicSpa»</h3>
+            <p>Антицеллюлитный массаж, солевой пилинг и&nbsp;обёртывание, массаж лица, альгинатная маска. Самая полная программа.</p>
+            <p class="spa-card__price">4400 ₽</p>
+          </article>
+          <article class="spa-card reveal">
+            <figure class="spa-card__photo"><img class="" src="assets/photos/spa-chocolate-800.jpg" srcset="assets/photos/spa-chocolate-800.jpg 800w, assets/photos/spa-chocolate-1400.jpg 1400w" sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw" alt="Нанесение шоколадного обёртывания" width="800" height="1000" loading="lazy" decoding="async"></figure>
+            <h3>«Гармония тепла и&nbsp;уюта»</h3>
+            <p>Массаж горячими камнями, сахарный скраб, шоколадное обёртывание. Для тех, кто мёрзнет и&nbsp;устал.</p>
+            <p class="spa-card__price">3600 ₽</p>
+          </article>
+          <article class="spa-card reveal">
+            <figure class="spa-card__photo"><img class="" src="assets/photos/spa-salt-800.jpg" srcset="assets/photos/spa-salt-800.jpg 800w, assets/photos/spa-salt-1400.jpg 1400w" sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw" alt="Солевой скраб на коже" width="800" height="1000" loading="lazy" decoding="async"></figure>
+            <h3>«Магний &amp; стройность»</h3>
+            <p>Солевое обёртывание и&nbsp;антицеллюлитный массаж.</p>
+            <p class="spa-card__price">3500 ₽</p>
+          </article>
+          <article class="spa-card reveal">
+            <figure class="spa-card__photo"><img class="" src="assets/photos/spa-algae-800.jpg" srcset="assets/photos/spa-algae-800.jpg 800w, assets/photos/spa-algae-1400.jpg 1400w" sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw" alt="Нанесение водорослевого обёртывания" width="800" height="1000" loading="lazy" decoding="async"></figure>
+            <h3>«Океан красоты»</h3>
+            <p>Массаж тела и&nbsp;водорослевое обёртывание.</p>
+            <p class="spa-card__price">3400 ₽</p>
+          </article>
+        </div>
+        <p class="quote-line reveal">Хороший способ отметить день рождения, закрыть тяжёлую неделю или просто сказать себе спасибо.</p>
+      </div>
+    </section>
+
+    <!-- 7. Акция -->
+    <section class="section" id="promo" aria-labelledby="promo-title">
+      <div class="container">
+        <article class="promo reveal">
+          <div class="promo__head">
+            <span class="promo__badge" aria-hidden="true">−20%</span>
+            <div>
+              <p class="eyebrow eyebrow--honey">Акция</p>
+              <h2 class="section__title" id="promo-title">Обёртывания со&nbsp;скидкой 20%</h2>
+              <p>Обёртывание можно добавить к&nbsp;массажу или прийти только на&nbsp;него.</p>
+            </div>
+          </div>
+          <table class="promo__table">
+            <caption class="visually-hidden">Цены на обёртывания по акции</caption>
+            <thead>
+              <tr><th scope="col">Обёртывание</th><th scope="col">Обычная цена</th><th scope="col">По акции</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Магниевое</th><td><s>1600 ₽</s></td><td>1280 ₽</td></tr>
+              <tr><th scope="row">Водорослевое</th><td><s>1500 ₽</s></td><td>1200 ₽</td></tr>
+              <tr><th scope="row">Шоколадное</th><td><s>1200 ₽</s></td><td>960 ₽</td></tr>
+              <tr><th scope="row">Бандажное</th><td><s>1400 ₽</s></td><td>1120 ₽</td></tr>
+              <tr><th scope="row">Липобустер</th><td><s>2000 ₽</s></td><td>1600 ₽</td></tr>
+            </tbody>
+          </table>
+          <p class="promo__note">Сроки акции уточняйте при записи.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 8. Подарочный сертификат -->
+    <section class="section section--dark" id="gift" aria-labelledby="gift-title">
+      <div class="container gift">
+        <div class="gift__text reveal">
+          <p class="eyebrow eyebrow--light">Подарок</p>
+          <h2 class="section__title" id="gift-title">Подарите час спокойствия</h2>
+          <p>Сертификат на&nbsp;массаж или SPA-программу — подарок, который точно не&nbsp;будет пылиться на&nbsp;полке. Подходит маме, подруге, коллеге или себе. Можно выбрать конкретную процедуру или сумму.</p>
+          <a class="btn btn--light" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Заказать сертификат</a>
+        </div>
+        <div class="gift__visual reveal" aria-hidden="true">
+          <img class="cert" src="assets/photos/certificate.jpg" alt="" width="1200" height="851" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Как проходит визит -->
+    <section class="section" id="steps" aria-labelledby="steps-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как всё устроено</p>
+          <h2 class="section__title" id="steps-title">Как проходит визит</h2>
+        </header>
+        <figure class="steps__photo reveal">
+          <img src="assets/photos/steps-1400.jpg" srcset="assets/photos/steps-800.jpg 800w, assets/photos/steps-1400.jpg 1400w" sizes="100vw" alt="Татьяна начинает массаж шеи и плеч" width="1400" height="1750" loading="lazy" decoding="async">
+        </figure>
+        <ol class="steps">
+          <li class="step reveal"><span class="step__num">01</span><h3>Запись</h3><p>Пишете мне ВКонтакте или звоните — выбираем удобное время.</p></li>
+          <li class="step reveal"><span class="step__num">02</span><h3>Знакомство</h3><p>Перед первым сеансом я&nbsp;спрошу о&nbsp;самочувствии и&nbsp;пожеланиях.</p></li>
+          <li class="step reveal"><span class="step__num">03</span><h3>Процедура</h3><p>Тёплый кабинет, чистое бельё, спокойная музыка, никакой спешки.</p></li>
+          <li class="step reveal"><span class="step__num">04</span><h3>После</h3><p>Чай, пара минут прийти в&nbsp;себя и&nbsp;рекомендации, если они нужны.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 10. Отзывы -->
+    <section class="section section--tint" id="reviews" aria-labelledby="reviews-title">
+      <div class="container reviews reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2 class="section__title" id="reviews-title">Что говорят гости</h2>
+        <p class="section__lead">Отзывы моих гостей собраны ВКонтакте и&nbsp;на&nbsp;Яндекс Картах. Если вы уже были у&nbsp;меня, буду благодарна за&nbsp;пару слов — это очень помогает.</p>
+
+        <!--
+          Сюда можно вставить настоящие отзывы (с согласия авторов), по одной карточке на отзыв:
+          <div class="review-grid">
+            <figure class="review">
+              <blockquote>Текст отзыва</blockquote>
+              <figcaption>Имя, месяц и год</figcaption>
+            </figure>
+          </div>
+        -->
+
+        <div class="reviews__actions">
+          <a class="btn btn--primary" href="https://vk.ru/topic-212913843_48826882" target="_blank" rel="noopener">Читать отзывы ВКонтакте</a>
+          <a class="btn btn--ghost" href="https://ya.cc/t/8-5IpGcL92ZP3u" target="_blank" rel="noopener">Оставить отзыв на&nbsp;Яндекс Картах</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Вопросы -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Вопросы</p>
+          <h2 class="section__title" id="faq-title">Частые вопросы</h2>
+        </header>
+        <div class="faq reveal" data-faq>
+          <details class="faq__item">
+            <summary>Больно ли будет?</summary>
+            <p>Нет, если вы этого не&nbsp;хотите. Силу нажима я&nbsp;подбираю под вас и&nbsp;всегда спрашиваю, комфортно ли.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Что взять с&nbsp;собой?</summary>
+            <p>Ничего — всё необходимое есть в&nbsp;кабинете.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно ли на&nbsp;массаж, если есть проблемы со&nbsp;здоровьем?</summary>
+            <p>Напишите мне заранее — обсудим. При некоторых состояниях массаж лучше отложить или сначала посоветоваться с&nbsp;врачом.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Как быстро будет результат от&nbsp;антицеллюлитных процедур?</summary>
+            <p>Честно: это не&nbsp;волшебная таблетка. Процедуры хорошо работают курсом и&nbsp;вместе с&nbsp;движением и&nbsp;водой. Я&nbsp;расскажу, как выстроить уход.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно ли подарить процедуру или прийти вдвоём?</summary>
+            <p>Подарить можно — для этого есть <a href="#gift">сертификаты</a>. Я&nbsp;работаю одна, поэтому принимаю по&nbsp;одной гостье.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Контакты -->
+    <section class="section section--tint" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts">
+        <div class="contacts__info reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2 class="section__title" id="contacts-title">Жду вас</h2>
+          <ul class="contact-list">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>
+              <div><span class="contact-list__label">Кабинет «Магия массажа»</span>Питкяранта, ул.&nbsp;Ленина,&nbsp;40, 3&nbsp;этаж, кабинет&nbsp;6</div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-vk"></use></svg>
+              <div><span class="contact-list__label">Записаться проще всего</span><a href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">сообщения группы ВК magicmassage_ptk</a></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+              <div><span class="contact-list__label">Телефон</span><a href="tel:+79214539263">+7 921 453-92-63</a></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-calendar"></use></svg>
+              <div><span class="contact-list__label">Онлайн-запись</span><a href="https://vk.ru/app5688600_-212913843" target="_blank" rel="noopener">выбрать время в DIKIDI</a></div>
+            </li>
+          </ul>
+          <div class="contacts__actions">
+            <a class="btn btn--primary" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Написать ВКонтакте</a>
+            <a class="btn btn--ghost" href="https://vk.ru/app5688600_-212913843" target="_blank" rel="noopener">Онлайн-запись</a>
+          </div>
+          <div class="qr">
+            <img src="assets/qr-vk.svg" alt="QR-код: группа ВКонтакте magicmassage_ptk" width="120" height="120" loading="lazy">
+            <p>Наведите камеру телефона —<br>откроется группа ВКонтакте</p>
+          </div>
+        </div>
+        <div class="contacts__map reveal">
+          <iframe title="Карта: Питкяранта, улица Ленина, 40" src="https://yandex.ru/map-widget/v1/?text=%D0%9F%D0%B8%D1%82%D0%BA%D1%8F%D1%80%D0%B0%D0%BD%D1%82%D0%B0%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0%2C%2040&amp;z=16" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand brand--light" href="#top">
+        <img class="brand__mark" src="assets/logo-light.svg" alt="" width="52" height="44">
+        <span class="brand__name">Магия массажа</span>
+      </a>
+      <p class="footer__meta">Массаж и SPA · Питкяранта, ул. Ленина, 40, 3 этаж, кабинет 6<br><a href="tel:+79214539263">+7 921 453-92-63</a> · <a href="https://vk.ru/magicmassage_ptk" target="_blank" rel="noopener">vk.ru/magicmassage_ptk</a></p>
+      <p class="footer__copy">© <span data-year>2026</span> Магия массажа</p>
+    </div>
+  </footer>
+
+  <!-- Нижняя панель записи на телефонах -->
+  <div class="mobile-bar" data-mobile-bar>
+    <a class="btn btn--primary" href="https://vk.me/magicmassage_ptk" target="_blank" rel="noopener">Записаться</a>
+    <a class="btn btn--ghost btn--icon" href="tel:+79214539263" aria-label="Позвонить: +7 921 453-92-63">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+    </a>
+  </div>
+
+  <!-- Иконки -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C12.9 7.1 16.9 11.1 24 12C16.9 12.9 12.9 16.9 12 24C11.1 16.9 7.1 12.9 0 12C7.1 11.1 11.1 7.1 12 0Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M5 3h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 7.3 7.3l1.4-2.2L21 15.5V19a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+    <symbol id="i-vk" viewBox="0 0 24 24"><path fill="currentColor" d="M12.8 17.5C7 17.5 3.6 13.5 3.5 6.8h2.9c.1 4.9 2.3 7 4 7.4V6.8h2.8v4.2c1.7-.2 3.4-2.1 4-4.2H20c-.5 2.6-2.3 4.5-3.7 5.3 1.4.6 3.5 2.3 4.3 5.4h-3c-.6-2-2.2-3.6-4.4-3.8v3.8h-.4Z"/></symbol>
+  </svg>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
